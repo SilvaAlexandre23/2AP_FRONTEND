@@ -1,5 +1,27 @@
 body{
     margin:0;
     padding:0;]
-    background-color:;
+    background-color: green;
+}
+header, footer{
+    width:100%;
+    background-color: darkgreen
+}
+header{
+    height: 15vh
+}
+footer{
+    height: 5vh;
+}
+.contPrincipal{
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5%;
+}
+h3{
+    font-size:20px;
+    font-family:'Arial';
+    color:aquamarine;
+    text-align:right;
 }
